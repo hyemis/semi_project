@@ -23,6 +23,15 @@
 		  <li class="list-group-item">address: ${lgnss.address }</li>
 		  <li class="list-group-item">phone: ${lgnss.phone }</li>
 		</ul>
+		
+		<div class="text-center">
+		<c:choose>
+			<c:when test="${not empty lgnss }">
+				<a class="btn btn-outline-secondary" href="<%=request.getContextPath()%>/myinfore">수정</a>
+			</c:when>
+		</c:choose>
+			
+	</div>
 	</div>
 </body>
 </html>

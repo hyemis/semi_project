@@ -32,4 +32,14 @@
     <servlet-name>EduController</servlet-name>
     <url-pattern>/EduController</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>MyinfoReController</display-name>
+    <servlet-name>MyinfoReController</servlet-name>
+    <servlet-class>semi.member.controller.MyinfoReController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyinfoReController</servlet-name>
+    <url-pattern>/MyinfoReController</url-pattern>
+  </servlet-mapping>
 </web-app>

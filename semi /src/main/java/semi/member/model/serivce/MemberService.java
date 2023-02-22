@@ -35,5 +35,14 @@ public class MemberService {
 		return result;
 	}
 
+	// 내 정보 수정
+	public int myinfore(MemberVo vo) {
+		int result = -1;
+		Connection conn = getConnection();
+		result = new MemberDao().myinfore(conn,vo);
+		close(conn);
+		return result;
+	}
+
 	
 }

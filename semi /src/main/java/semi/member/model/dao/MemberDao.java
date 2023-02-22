@@ -111,4 +111,31 @@ public class MemberDao {
 		System.out.println(result);
 		return result;
 	}
+
+	// 내 정보 수정하기 
+	public int myinfore(Connection conn, MemberVo vo) {
+		int result = -1;
+		PreparedStatement pstmt = null;
+		
+		String sql = "update member set name=?, email=?, address=?, phone=? where no=?";
+		
+		try {
+			pstmt = conn.prepareStatement(sql);
+			
+			pstmt.setString(1, vo.getName());
+			pstmt.setString(2, vo.getEmail());
+			pstmt.setString(3, vo.getAddress());
+			pstmt.setString(4, vo.getPhone());
+			pstmt.setInt(5, vo.getNo());
+			
+			result = pstmt.executeUpdate();
+			
+		} catch(Exception e) {
+			e.printStackTrace();
+		} finally {
+			close(pstmt);
+		}
+		
+		return result;
+	}
 }
