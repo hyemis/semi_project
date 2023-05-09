@@ -1,5 +1,25 @@
 
-### semi_project
+# semi_project
+
+## 프로젝트 소개
+
+<p align="justify">
+개인 실습 프로젝트로 게시판을 만들어보았다.
+</p>
+
+<br>
+
+#### 기술 스택
+
+<p align="justify">
+운영 체제 - Mac OS <br>
+IDE - 2020-03 (4.15.0)<br>
+DBMS - Oracle 11gXE 11.2.0 DB - Sqldeveloper v17.2.0<br>
+Server - Apache Tomcat 10.0<br>
+Laguage - Java11, HTML5, CSS, javascript, jQuery 3.4.1
+</p>
+<br>
+
 
 
 #### 메인화면
@@ -55,8 +75,16 @@
 ## 배운 점 & 아쉬운 점
 
 <p align="justify">
-  작성중 <br>
+  충분한 시간적 여유가 없어 모든 UI, 기능들을 다 구현하지 못해서 아쉬웠지만 Servlet/JSP, MVC2 모델의 구조를 이해할 수 있는 시간이 되었고, JQuery, Ajax 등의 기술에 적응할 수 있었습니다. 또한 테이블 간의 관계 설정을 중요성을 깨달았습니다. 다음 프로젝트를 진행하게 된다면 DB 설계부터 더욱 철저히 계획을 세워 많은 기능을 구현할 수 있을 것이라고 생각합니다.  <br>
 </p>
+
+<!-- Stack Icon Refernces -->
+
+[js]: image/stack/javascript.svg
+[css]: image/stack/css.svg
+[html]: image/stack/html.svg
+[java]: image/stack/java.png
+[oracle]: image/stack/oracle.png
 
 
 
